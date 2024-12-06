@@ -1,0 +1,1037 @@
+*{
+    margin: auto;
+    padding: auto;
+    scroll-behavior: smooth;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+.html{
+    scroll-behavior: smooth;
+
+}
+
+/* /////main  */
+
+ .main{
+    height: 125vh;
+    width: 100%;
+    background-color: whitesmoke;
+ }
+
+ /* ////menu-bar */
+ .main1{
+    height: 7.8vh;
+    width: 100%;
+    display: flex;
+    position: relative;
+    background-color:rgb(21, 20, 20);
+ }
+ 
+ .amazon-logo-location{
+   height: 8vh;
+   width: 23%;
+   display: flex;
+   /* background-color: blue; */
+ }
+ .amazon-logo{
+   height: 8vh;
+   width: 100%;
+  }
+ .amazon-logo img{
+   height:6.5vh;
+   width: 100%;
+
+ }
+ .amazon-location{
+   height: 7.8vh;
+   width: 100%;
+   display: flex;
+   /* border: 2px solid white; */
+ }
+ .location-logo{
+   height: 5vh;
+   width: 20%;
+   /* border: 1px solid green; */
+ }
+ .location-logo i{
+   height: 5vh;
+   width: 100%;
+   margin-top: 5px;
+   margin-left:22px;
+   color: white;
+   /* border: 1px solid green; */
+ }
+  .address-div{
+        height:6vh ;
+        width: 80%;
+        /* border: 2px solid yellow; */
+  }
+  .delivery-address{
+    height: 2.5vh;
+    width: 100%;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    color: white;
+    /* border:1px solid red; */
+  }
+ .search-bar{
+    height: 8vh;
+    width: 52%;
+    /* margin-left: -10px; */
+    margin-top: 5px;
+    align-items: center;
+    /* border: 2px solid black; */
+ }
+ .menu-search-logo{
+  height: 5vh;
+  width: 100%;
+  display: flex;
+  border-radius: 7px;
+  background-color: aliceblue;
+  /* border: 1px solid blue; */
+ }
+.searchbar-menu{
+  height: 4.9vh;
+  width: 10%;
+  justify-content: baseline;
+  margin-right: -4px;
+  display: flex;
+  border-top-left-radius: 7px;
+  font-size: x-large;
+  text-align: center;
+  /* border: 1px solid red; */
+}
+.all{
+  height: 2vh;
+  width: 40%;
+  font-size: small;
+  opacity: 0.5;
+  /* border: 2px solid red; */
+}
+.down{
+  height: 2vh;
+  width: 30%;
+  margin-left: -12px;
+  /* border: 2px solid red; */
+}
+.down i{
+  height: 2vh;
+  width: 30%;
+  font-size: large;
+  margin-left: -12px;
+  /* border: 2px solid red; */
+}
+ 
+ .searchbar-searchspace{
+  height: 5vh;
+  width: 80%;
+  /* border: 1px solid red; */
+ }
+ .searchbar-searchspace input{
+  height: 4.4vh;
+  width: 100%;
+  outline: none;
+  border: none;
+  font-size: large;
+  /* margin-right:px ; */
+  text-decoration: none;
+  
+  /* border: 1px solid red; */
+ }
+  .searchbar-searchspace input:focus{
+      border:2px solid yellow;
+      outline: none;
+      text-decoration: none;
+  }
+ 
+ .searchbar-logo{
+  height: 5vh;
+  width: 10%;
+  font-size: x-large;
+  text-align: center;
+  margin-left: 7px;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+  background-color: orange;
+  /* border: 1px solid red; */
+ }
+ .searchbar-logo i{
+  height: 5vh;
+  width: 100%;
+  margin-top: 6px;
+ }
+ .amazon-lang-sign-order-card{
+    height: 8vh;
+    width: 25%;
+    display: flex;
+
+    /* border: 2px solid green; */
+ }
+ .amazon-lang{
+  height: 6.5vh;
+  width: 15%;
+  display: flex;
+  /* border: 1px solid white; */
+ }
+ .amazon-lang-flag{
+  height: 3vh;
+  width: 30%;
+  /* border: 1px solid whitesmoke; */
+ }
+ .amazon-lang-flag img{
+  height: 3vh;
+  width: 100%;
+  /* border: 1px solid whitesmoke; */
+ }
+ .amazon-lang-EN{
+  height: 3vh;
+  width: 40%;
+  color: aliceblue;
+  font-family: Arial, Helvetica, sans-serif;
+  /* border: 1px solid whitesmoke; */
+ }
+ .amazon-lang-down{
+  height: 3vh;
+  width: 20%;
+  /* border: 1px solid whitesmoke; */
+ }
+
+ .amazon-sign-account{
+  height: 6.5vh;
+  width: 36%;
+  /* display: flex; */
+  /* border: 1px solid white; */
+ }
+ .amazon-sign{
+  height: 3vh;
+  width: 80%;
+  color: aliceblue;
+  /* border: 1px solid white; */
+ }
+.amazon-sign-down{
+  height: 3vh;
+  width: 80%;
+  display: flex;
+  /* border: 1px solid white; */
+ }
+ .amazon-account{
+  height: 3vh;
+  width: 88%;
+  font-size:small ;
+  color: aliceblue;
+  /* border: 1px solid white; */
+ }
+ .amazon-down{  
+  height: 3vh;
+  width: 12%;
+  /* border: 1px solid white; */
+ }
+
+
+ .amazon-order{
+  height: 6.5vh;
+  width: 22%;
+  /* border: 1px solid white; */
+ }
+
+ .amazon-return{
+  height: 3vh;
+  width: 88%;
+  color: aliceblue;
+  /* border: 1px solid white; */
+ }
+ .amazon-cart-logo{
+  height: 6.5vh;
+  width: 22%;
+  display: flex;
+  /* border: 1px solid white; */
+ }
+ .amazon-cartlogo{
+  height: 4vh;
+  width:60%;
+  text-align: center;
+  /* border: 1px solid white; */
+ }
+ .amazon-cartlogo i{
+  height: 6.5vh;
+  width:60%;
+  font-size: xx-large;
+  /* border: 1px solid white; */
+ }
+ .amazon-cart{
+  height: 3vh;
+  width: 40%;
+  text-align:left;
+  color: aliceblue;
+  /* border: 1px solid white; */
+ }
+
+ /* hover */
+
+  .amazon-logo:hover{
+    
+    border: 2px solid white;
+  }
+
+  .amazon-location:hover{
+    border: 2px solid white;
+  }
+  .amazon-lang:hover{
+    border: 2px solid white;
+  }
+  
+  .amazon-sign-account:hover{
+    border: 2px solid white;
+  }
+  .amazon-order:hover{
+    border: 2px solid white;
+  }
+  .amazon-cart-logo:hover{
+    border: 2px solid white;
+  }
+
+
+
+
+   
+ /* /////main2 */
+
+ .main2{
+  height: 5vh;
+  width: 100%;
+  background-color: rgb(32, 32, 73);
+ }
+ul{
+  list-style-type: none;
+  text-decoration:none ;
+  
+  color: wheat;
+}
+ li{
+  margin: 8px 12px;
+  float: left;
+ }
+li a{
+  color: wheat;
+
+  text-align: center;font-size: small;
+  text-decoration: none;
+}
+#a{
+  display: flex;
+  justify-content: space-between;
+}
+.menu-all i{
+  height: 3vh;
+  width: 60%;
+  /* border: 2px solid red; */
+}
+#all{
+  height: 3vh;
+  width: 40%;
+}
+
+
+/* ////hero section  */
+
+.hero-section{
+  height: 770px;
+  width: 98%;
+  background-image: url("https://images-eu.ssl-images-amazon.com/images/G/31/img24/HPC/GW/SVD/Dec/Apay/BFCM24_GW_PC_Hero_lifestyle_02._CB539162390_.jpg");
+  background-size: cover;
+  background-repeat: none;
+  background-position: center;
+  border-top-left-radius: 110px;
+  border-top-right-radius: 110px;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  /* border:3px solid ; */
+}
+
+.hero-item-section{
+  height: 400px;
+  width: 100%; 
+  position: absolute;
+  bottom: 6%;
+  display: flex;
+  justify-content:space-between;
+  /* align-items: center; */
+  /* border: 2px solid red; */
+} 
+
+.hero-item1{
+  height: 450px;
+  width: 23%;
+  background-color: white;
+  /* border: 2px solid black; */
+}
+.hero-item2{
+  height: 450px;
+  width: 23%;
+  background-color: white;
+  /* border: 2px solid black; */
+}
+.hero-item3{
+  height: 450px;
+  width: 23%;
+  background-color: white;
+  /* border: 2px solid black; */
+}
+.hero-item4{
+  height: 450px;
+  width: 23%;
+  /* border: 2px solid black; */
+}
+
+.shop_all_day-note{
+height: 5vh;
+width: 90%;
+margin-top:2vh ;
+text-align: center;
+
+/* border: 2px solid black; */
+}
+.shop_all_day-note h2{
+height: 5vh;
+width: 90%;
+cursor:col-resize;
+color:black;
+font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+text-align: left;
+
+/* border: 2px solid black; */
+}
+.shop_all_day-image{
+height: 46vh;
+width: 90%;
+/* border: 2px solid black; */
+}
+.shop_all_day-image img{
+height: 47vh;
+width: 100%;
+cursor: pointer;
+/* border: 2px solid black; */
+}
+.see_all_offers{
+height: 3vh;
+width: 90%;
+cursor:grab;
+margin-top:15px ;
+/* border: 2px solid black; */
+}
+.see_all_offers a{
+  text-decoration: none;
+margin-top:15px ;
+/* border: 2px solid black; */
+}
+.see_all_offers a:hover{
+  text-decoration: underline;
+  color: rgb(218, 154, 36);
+}
+.see_all_offers a:link{
+  text-decoration: none;
+  color:#007185;
+}
+.shopping_deals-note{
+  height: 5vh;
+  width: 90%;
+  margin-top:2vh ;
+  text-align: center;
+
+/* border: 2px solid black;   */
+}
+.shopping_deals-note h2{
+  height: 5vh;
+  width: 90%;
+  color:black;
+  cursor:col-resize;
+  font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: left;
+  
+  /* border: 2px solid black; */
+  }
+.shopping_deals-skincare1-food{
+height: 23vh;
+width: 90%;
+display: flex;
+/* border: 2px solid black; */
+}
+.shopping_deals-skincare1{
+  height: 23vh;
+  width: 46%;
+margin-left: 0;
+/* border: 2px solid black; */
+}
+.shopping_deals-skincare1-img img{
+  margin-left: auto ;
+  margin-top: auto ;
+  cursor: pointer;
+  height: 18vh;
+  display: block;
+  
+}
+.shopping_deals-skincare1-note{
+  height: 4vh;
+  width: 100%;
+  display: flex;
+  margin-top: -3px;
+  /* border: 2px solid black */
+}
+.shopping_deals-skincare1-note-offer{
+  height: 3.8vh;
+  width: 30%;
+  font-size: small;
+  text-align: center;
+  margin: 0;
+  top: 50%;
+  margin-top:auto;
+  line-height: -100%;
+  justify-content: center;
+  font-family:  Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+  background-color: rgb(196, 24, 24);
+  color: white;
+  border-radius: 10px ;
+  /* border: 2px solid pink; */
+}
+ 
+.sale-note{
+  height:3.8vh;
+  width: 70%;
+  font-size:  small;
+  text-align: start;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  /* border: 2px solid pink; */
+}
+.shopping_deals-food{
+  height: 23vh;
+  width: 46%;
+  margin-right: 0;
+  /* border: 2px solid black; */
+  }
+.shopping_deals-skincare1-facewash{
+  height: 18vh;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  background-color:white;
+  /* border: 2px solid blue; */
+}
+.shopping_deals-skincare1-facewash img{
+   margin-left: auto ;
+   margin-top: auto ;
+   height: 18vh;
+   cursor: pointer;
+   display: block;
+  
+}
+.shopping_deals-skincare1-note{
+  height: 4vh;
+  width: 100%;
+  display: flex;
+  margin-top: -3px;
+  /* border: 2px solid black */
+}
+.shopping_deals-skincare1-note-offer{
+  height: 3.8vh;
+  width: 30%;
+  font-size: small;
+  text-align: center;
+  margin: 0;
+  top: 50%;
+  margin-top:auto;
+  justify-content: center;
+  font-family:  Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+  background-color: rgb(196, 24, 24);
+  color: white;
+  border-radius: 10px ;
+  /* border: 2px solid pink; */
+}
+ 
+.sale-note{
+  height:3.8vh;
+  width: 70%;
+  font-size:  small;
+  text-align: start;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  /* border: 2px solid pink; */
+}
+.shopping_deals-skincare1-phn{
+  height: 23vh;
+  width: 90%;
+  display: flex;
+  /* border: 2px solid black; */
+  }
+.see_all_offers a{
+  text-decoration: none;
+margin-top:15px ;
+/* border: 2px solid black; */
+}
+.see_all_offers a:hover{
+  text-decoration: underline;
+  color: rgb(218, 154, 36);
+}
+.see_all_offers a:link{
+  text-decoration: none;
+  color:#007185;
+}
+ 
+.shopping_deals-phn1{
+  height: 23vh;
+  width: 40%;
+  /* border: 2px solid black; */
+  }
+.shopping_deals-phn1-img img{
+  margin-left: auto ;
+  margin-top: auto ;
+  cursor: pointer;
+  height: 18vh;
+  display: block;
+  
+}
+.shopping_deals-phn1-note{
+  height: 4vh;
+  width: 100%;
+  display: flex;
+  margin-top: -3px;
+  /* border: 2px solid black */
+}
+.shopping_deals-phn1-note-offer{
+  height: 3.8vh;
+  width: 30%;
+  font-size: small;
+  text-align: center;
+  margin: 0;
+  top: 50%;
+  margin-top:auto;
+  line-height: -100%;
+  justify-content: center;
+  font-family:  Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+  background-color: rgb(196, 24, 24);
+  color: white;
+  border-radius: 10px ;
+  /* border: 2px solid pink; */
+}
+ 
+.sale-note{
+  height:3.8vh;
+  width: 70%;
+  font-size:  small;
+  text-align: start;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  /* border: 2px solid pink; */
+}
+.shopping_deals-phn2{
+  height: 23vh;
+  width: 40%;
+  /* border: 2px solid black; */
+  }
+.shopping_deals-phn2-img img{
+  margin-left: auto ;
+  margin-top: auto ;
+  height: 18vh;
+  cursor: pointer;
+  display: block;
+  
+}
+.shopping_deals-phn2-note{
+  height: 4vh;
+  width: 100%;
+  display: flex;
+  margin-top: -3px;
+  /* border: 2px solid black */
+}
+.shopping_deals-phn2-note-offer{
+  height: 3.8vh;
+  width: 30%;
+  font-size: small;
+  text-align: center;
+  margin: 0;
+  top: 50%;
+  margin-top:auto;
+  line-height: -100%;
+  justify-content: center;
+  font-family:  Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+  background-color: rgb(196, 24, 24);
+  color: white;
+  border-radius: 10px ;
+  /* border: 2px solid pink; */
+}
+ 
+.sale-note{
+  height:3.8vh;
+  width: 70%;
+  font-size:  small;
+  text-align: start;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  /* border: 2px solid pink; */
+}
+/* /////----hero-item3---- */
+.shopping_deals-note{
+  height: 5vh;
+width: 90%;
+margin-top:2vh ;
+text-align: center;
+
+/* border: 2px solid black;   */
+}
+.shopping_deals-note h2{
+  height: 5vh;
+  width: 90%;
+  font-size:larger;
+  color:black;
+  cursor:col-resize;
+  font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: left;
+  
+  /* border: 2px solid black; */
+  }
+  .shopping_deals-phn1-food{
+  height: 23vh;
+  width: 90%;
+  display: flex;
+  /* border: 2px solid black; */
+  }
+.shopping_deals-food1{
+  height: 23vh;
+  width: 46%;
+  margin-left: 0;
+  /* border: 2px solid black; */
+}
+.shopping_deals-food1-img img{
+  margin-left: auto ;
+  margin-top: auto ;
+  cursor: pointer;
+  height: 18vh;
+  display: block;
+  
+}
+.shopping_deals-food1-note{
+  height: 4vh;
+  width: 100%;
+  display: flex;
+  margin-top: -3px;
+  /* border: 2px solid black */
+}
+.shopping_deals-food1-note-offer{
+  height: 3.8vh;
+  width: 30%;
+  font-size: small;
+  text-align: center;
+  margin: 0;
+  top: 50%;
+  margin-top:auto;
+  line-height: -100%;
+  justify-content: center;
+  font-family:  Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+  background-color: rgb(196, 24, 24);
+  color: white;
+  border-radius: 10px ;
+  /* border: 2px solid pink; */
+}
+ 
+.sale-note{
+  height:3.8vh;
+  width: 70%;
+  font-size:  small;
+  text-align: start;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  /* border: 2px solid pink; */
+}
+.shopping_deals-food{
+  height: 23vh;
+  width: 46%;
+  margin-right: 0;
+  /* border: 2px solid black; */
+  }
+.shopping_deals-skincare1-facewash{
+  height: 18vh;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  background-color:white;
+  /* border: 2px solid blue; */
+}
+.shopping_deals-skincare1-facewash img{
+   margin-left: auto ;
+   margin-top: auto ;
+   height: 18vh;
+   cursor: pointer;
+   display: block;
+  
+}
+.shopping_deals-skincare1-note{
+  height: 4vh;
+  width: 100%;
+  display: flex;
+  margin-top: -3px;
+  /* border: 2px solid black */
+}
+.shopping_deals-skincare1-note-offer{
+  height: 3.8vh;
+  width: 30%;
+  font-size: small;
+  text-align: center;
+  margin: 0;
+  top: 50%;
+  margin-top:auto;
+  justify-content: center;
+  font-family:  Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+  background-color: rgb(196, 24, 24);
+  color: white;
+  border-radius: 10px ;
+  /* border: 2px solid pink; */
+}
+ 
+.sale-note{
+  height:3.8vh;
+  width: 70%;
+  font-size:  small;
+  text-align: start;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  /* border: 2px solid pink; */
+}
+.shopping_deals-skincare1-phn{
+  height: 23vh;
+  width: 90%;
+  display: flex;
+  /* border: 2px solid black; */
+  }
+ 
+ 
+.shopping_deals-phn1{
+  height: 23vh;
+  width: 40%;
+  /* border: 2px solid black; */
+}
+.shopping_deals-phn1-img img{
+  margin-left: auto ;
+  margin-top: auto ;
+  height: 18vh;
+  cursor: pointer;
+  display: block;
+  
+}
+.shopping_deals-phn1-note{
+  height: 4vh;
+  width: 100%;
+  display: flex;
+  margin-top: -3px;
+  /* border: 2px solid black */
+}
+.shopping_deals-phn1-note-offer{
+  height: 3.8vh;
+  width: 30%;
+  font-size: small;
+  text-align: center;
+  margin: 0;
+  top: 50%;
+  margin-top:auto;
+  line-height: -100%;
+  justify-content: center;
+  font-family:  Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+  background-color: rgb(196, 24, 24);
+  color: white;
+  border-radius: 10px ;
+  /* border: 2px solid pink; */
+}
+ 
+.sale-note{
+  height:3.8vh;
+  width: 70%;
+  font-size:  small;
+  text-align: start;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  /* border: 2px solid pink; */
+}
+.shopping_deals-phn2{
+height: 23vh;
+width: 40%;
+/* border: 2px solid black; */
+}
+.shopping_deals-food2-img img{
+  margin-left: auto ;
+  cursor: pointer;
+  margin-top: auto ;
+  height: 18vh;
+    display: block;
+    
+  }
+.shopping_deals-food2-note{
+  height: 4vh;
+  width: 100%;
+  display: flex;
+  margin-top: -3px;
+  /* border: 2px solid black */
+}
+.shopping_deals-food2-note-offer{
+  height: 3.8vh;
+  width: 30%;
+  font-size: small;
+  text-align: center;
+  margin: 0;
+  top: 50%;
+  margin-top:auto;
+  line-height: -100%;
+  justify-content: center;
+  font-family:  Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+  background-color: rgb(196, 24, 24);
+  color: white;
+  border-radius: 10px ;
+  /* border: 2px solid pink; */
+}
+ 
+.sale-note{
+  height:3.8vh;
+  width: 70%;
+  font-size:  small;
+  text-align: start;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  /* border: 2px solid pink; */
+}
+/* ////-----hero-item4-----//// */
+.signup-for-offer{
+  height: 22vh;
+  width: 100%;
+  background-color: white;
+  /* border: 2px solid black; */
+}
+.sign-text{
+  height: 10vh;
+  width: 90%;
+  font-size: x-large;
+  font-family:  Verdana, Geneva, Tahoma, sans-serif;
+  text-align: start;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid red; */
+}
+.sign-button{
+  height:5vh ;
+  width: 90%;
+  /* border: 2px solid black; */
+}
+.sign-button button{
+  height:5vh ;
+  width: 100%;
+  cursor: pointer;
+  border-radius: 5px ;
+  outline: none;
+  border: 1px solid orange;
+  background-image: linear-gradient(#ffff00,#ffd700);
+  /* border: 2px solid black; */
+}
+.sign-button button:hover{
+  background-color: rgb(192, 127, 6);
+}
+.signup-offer{
+  height: 33vh;
+  width: 80%;
+  margin-top: 3vh;
+  /* border: 2px solid black; */
+}
+.signup-offer img{
+  height: 33vh;
+  width: 100%;
+}
+.main3{
+  height: 17vh;
+  width: 100%;
+  display: flex;
+  border-top:2px solid rgb(87, 82, 82);
+  border-bottom:2px solid rgb(87, 82, 82);
+  /* border: 2px solid black; */
+}
+.perso-signin-new{
+  height: 10vh;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid red; */
+}
+.personalized{
+  height: 2vh;
+  width: 100%;
+  font-size: smaller;
+  text-align: center;
+  /* border: 2px solid black; */
+
+}
+.signin{
+  height: 5vh;
+  width: 100%;
+  
+  display: flex;
+  /* border:2px solid black ; */
+}
+.signin button{
+  height: 4vh;
+  width: 15%;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px ;
+  border: 1px solid yellow;
+  background-image: linear-gradient(#ffff00,#ffd700);
+  /* border:2px solid black ; */
+}
+.signin button:hover{
+  cursor: grab;
+  background-color: rgb(192, 127, 6);
+}
+.new-Customer{
+  height: 2vh;
+  width: 100%;
+  font-size: smaller; 
+  text-align: center;
+  /* border: 2px solid black; */
+}
+.new-Customer a{
+outline: none;
+text-decoration: none ;
+}
+.new-Customer a:link{
+ color:#007185 ;
+}
+.back-to-top {
+  height: 6.5vh;
+  width: 100%;
+  margin-top: 3px;
+  color: white;
+  background-color: #33475f;
+  border-bottom:2px solid rgb(161, 149, 149) ;
+  font-size: medium;
+  display: flex;
+  text-align: center;
+  text-decoration: none;
+  /* border: 2px solid black; */
+}
+ a{
+  text-decoration: none;
+ }
+
+ /* /////----footer----////// */
+
+.amazon-footer{
+  height: 10vh;
+  width: 100%;
+  background-color: #33475f;
+  /* border: 2px solid black; */
+}
+.change-language{
+  height: 10vh;
+  width: 25%;
+  display: flex;
+  
+  /* border: 2px solid black; */
+}
+.footer-amazon-logo{
+  height: 10vh;
+  width: 35%;
+  /* border: 2px solid blue; */
+}
+.footer-amazon-logo img{
+  height: 10vh;
+  width: 100%;
+  /* border: 2px solid blue; */
+}
